@@ -3,6 +3,7 @@ body {
 }
 .resaltado{
     color: rgb(15, 12, 231) ;
+    background-color: aliceblue;
 }
 .titulo{
     color: aliceblue;

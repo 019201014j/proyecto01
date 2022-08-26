@@ -1,31 +1,41 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="descripcion" content="presentacion de la empresa FACITEL">
-        <meta name="robot" content="index, follow">
-        <title>FACIL!!</title>
-        <meta name="viewport" content="width=devide-width">
-        <link rel="stylesheet" href="CSS/estilo.css">
+    <head> <!-- no es visible en la pagina -->
+        <meta charset="UTF-8"> <!-- son los caracteres que son permitidos en la pagina -->
+        <meta name="descripcion" content="presentacion de la empresa FACITEL"><!-- es como la presentacion de la pagina -->
+        <meta name="robot" content="index, follow"> <!-- eusa a google como un robot-->
+        <title>FACIL!!</title> <!-- es el titulo de la pestaña-->
+        <meta name="viewport" content="width=devide-width, initial-scales1.0"><!-- es la adaptacion de la pagina a diferentes dispositivos -->
+        <link rel="stylesheet" href="CSS/estilo.css"> <!-- sincronizacion con el archivo css-->
     </head>
-    <body>
+    <body><!-- es lo visible en la pagina -->
         <header>
             <nav>
 
             </nav>
         </header>
         <main>
+            <div class="titulo"> <!-- se sincroniza por nombres con css y puede ver su estilo-->
+                <h1>son para titulos</h1> <!-- se usa para titulos -->
+            </div>
+            <h2>es para subtitulos</h2> <!-- se usa para subtitulos -->
+            <p>aca va algo normal como un parrafo</p> 
+            <p>aca es otro parrafo separado</p>
             <section>
                 <article>
-                    <ul> /bolitas
+                    <div class="resaltado"> <!-- se sincroniza por nombres con css y puede ver su estilo-->
+                        <ul> <!-- ul marca los elementos con bolitas-->
+                            <li>elemento 01</li>
+                            <li>elemento 02</li>
+                            <li>elemento 03</li>
+                        </ul>
+                    </div>
+                    <ol> <!-- ol marca los elementos con numeros(los enumera -->
                         <li>elemento 01</li>
                         <li>elemento 02</li>
                         <li>elemento 03</li>
-                    </ul>
-                    <ol> /numeros
-                        <li>elemento 01</li>
-                        <li>elemento 02</li>
-                        <li>elemento 03</li>
+                        <li>nuevo element</li>
+                        <li>un elemento mas</li>
                     </ol>
                 </article>
                 <article>
@@ -39,5 +49,6 @@
         <footer>
 
         </footer>
+        <script src="js/codigo.js"></script>
     </body>
 </html>

@@ -1,1 +1,3 @@
-alert("hola desde javascriptt")
+alert(
+    "hola desde javascriptt"
+)
